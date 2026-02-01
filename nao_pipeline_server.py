@@ -7,9 +7,9 @@ import speech_recognition as sr
 from google import genai
 from PIL import Image
 
-INCOMING_DIR = Path(r"C:\Users\khaled\Documents\Nao_Project\incoming")
-OUTGOING_DIR = Path(r"C:\Users\khaled\Documents\Nao_Project\outgoing")
-IMAGES_DIR = Path(r"C:\Users\khaled\Documents\Nao_Project\images")
+INCOMING_DIR = Path(r"C:\Users\sanaz\Documents\Nao_Project\incoming")
+OUTGOING_DIR = Path(r"C:\Users\sanaz\Documents\Nao_Project\outgoing")
+IMAGES_DIR = Path(r"C:\Users\sanaz\Documents\Nao_Project\images")
 
 MODEL_NAME = "models/gemini-2.5-flash"
 
