@@ -13,9 +13,8 @@ IMAGES_DIR = Path(r"C:\Users\khaled\Documents\Nao_Project\images")
 
 MODEL_NAME = "models/gemini-2.5-flash"
 
-API_KEY = "AIzaSyDhdgXDsNm4s6YmWABW81lRqeF2CCRsFn4"
+api_key = os.getenv("GEMINI_API_KEY")
 
-client = genai.Client(api_key=API_KEY)
 
 recognizer = sr.Recognizer()
 
